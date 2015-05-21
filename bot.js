@@ -2,10 +2,10 @@ var irc = require('irc');
 var Parse = require('./Parse.js');
 
 var bot = {
-  nick: 'Dunn',
+  nick: 'Bot',
   server: 'irc.freenode.net',
-  channels: ['#webtech'],
-  admins: ['Killswitch', 'K1llswitch'],
+  channels: ['#bacon_space'],
+  admins: ['Bacon_Space',],
   cmd: '.',
   alias: '?',
   db: {
