@@ -63,7 +63,7 @@ client.addListener('message', function (user, channel, message) {
   
   if (message === bot.cmd + 'about')
   {
-    client.say(channel, user + ': My name is ' + bot.nick + ' and I am a Node.js powered bot using Node-IRC, written by Killswitch, and I store my data on parse.com.');
+    client.say(channel, user + ': My name is ' + bot.nick + ' and I am a Node.js powered bot using Node-IRC, edited by Bacon_Space, and I stream on https://surl.im/a2kL.');
   }
   
   if (to = message.match(/^(.*)\+\+;?$/i))
