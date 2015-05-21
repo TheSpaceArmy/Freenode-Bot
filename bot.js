@@ -140,7 +140,7 @@ client.addListener('message', function (user, channel, message) {
   
   if (message === bot.cmd + 'code')
   {
-    client.say(channel, 'You can view, and fork my code to contribute on GitHub @ http://www.github.com/joshmanders/dunn');
+    client.say(channel, 'You can view, and fork my code to contribute on GitHub @ You can view, and fork my code to contribute on GitHub @ https://surl.im/EJ11');
   }
   
 });
