@@ -135,7 +135,7 @@ client.addListener('message', function (user, channel, message) {
   
   if (love = message.match(/<3/i))
   {
-    client.action(channel, 'can feel the love.');
+    client.action(channel, 'can you feel the love tonight .');
   }
   
   if (message === bot.cmd + 'code')
