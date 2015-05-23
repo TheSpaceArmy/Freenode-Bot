@@ -6,7 +6,7 @@ var bot = {
   server: 'irc.freenode.net',
   channels: ['#bacon_space'],
   admins: ['Bacon_Space',],
-  cmd: '.',
+  cmd: '!',
   alias: '?',
   db: {
     parse: {
