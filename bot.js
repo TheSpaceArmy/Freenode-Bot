@@ -58,7 +58,7 @@ client.addListener('message', function (user, channel, message) {
   
   if (message === bot.cmd + 'help')
   {
-    client.say(channel, user + ': Currently I log the channel, greet you if you greet me, and issue and revoke karma to users.');
+    client.say(channel, user + ': Currently I am bot named ' + bot.nick + '  that logs the channel, greet you if you greet me, and issue and revoke karma to users.');
   }
   
   if (message === bot.cmd + 'about')
@@ -133,9 +133,9 @@ client.addListener('message', function (user, channel, message) {
     client.say(channel, user + ': ' + song);
   }
   
-  if (love = message.match(/<3/i))
+  if (stream = message.match(/<3/i))
   {
-    client.action(channel, 'can you feel the love tonight .');
+    client.action(channel, 'come check out my stream at https://surl.im/XLpA .');
   }
   
   if (message === bot.cmd + 'code')
